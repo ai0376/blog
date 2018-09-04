@@ -146,7 +146,7 @@ defaultContentLanguage = "en"           # Default language to use
     appKey = ""
 
   [params.social]                                         # 社交链接
-    a-email = "mjrao@foxmail.com"
+    #a-email = "mjrao@foxmail.com"
     #b-stack-overflow = "http://localhost:1313"
     #c-twitter = "http://localhost:1313"
     #d-facebook = "http://localhost:1313"
