@@ -5,7 +5,7 @@ git:
 install:
     - go get -v github.com/gohugoio/hugo
 script:
-    ‐ hugo
+    - hugo
 deploy:
     provider: pages
     skip_cleanup: true
