@@ -1,11 +1,10 @@
-sudo: false
+sudo: true
 language: go
 git:
     depth: 1
 install:
     - go get -v github.com/gohugoio/hugo
 script:
-    - ls
     - hugo
 deploy:
     provider: pages
