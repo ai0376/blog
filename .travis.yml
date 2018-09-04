@@ -3,7 +3,7 @@ language: go
 git:
     depth: 1
 install:
-    go get -v github.com/gohugoio/hugo
+    - go get -v github.com/gohugoio/hugo
 script:
     ‐ hugo
 deploy:
