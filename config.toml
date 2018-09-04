@@ -1,4 +1,4 @@
-baseURL = "mjrao.github.io"
+#baseURL = "mjrao.github.io"
 title = "ownwiki - A coder"
 enableRobotsTXT = true
 enableEmoji = true
