@@ -1,0 +1,69 @@
+---
+title: "gbk2utf8"
+date: 2018-09-07T11:35:06+08:00
+draft: false
+tags: ["gbk", "utf8", "shell", "gbk2utf8"]
+---
+
+gbk转utf8 编码的一段shell脚本
+
+
+单个文件使用
+
+`
+$./gbk2utf8.sh  xx.cpp
+`
+
+文件夹下使用
+
+`
+$./gbk2utf8.sh
+`
+
+可以自己修改 filelist
+
+
+*filename*: gbk2utf8.sh
+
+```
+#!/bin/bash
+
+convert(){
+
+tag="ISO-8859"
+echo "input $1"
+
+echo `file $1`
+result=`file $1 | grep "${tag}"`
+
+if [[ "$result" != "" ]]; then
+    echo "gbk -> utf-8"
+    `iconv.exe -f gbk -t utf-8 $1 > $1.tmp`
+    `mv $1.tmp $1`
+
+    echo `file $1`
+    echo "convert finish"
+else
+    echo "can not convert!"
+fi
+
+}
+
+convert_curdir(){
+	
+filelist="ls *.h *.cpp" 
+
+for file in $filelist
+do 
+	convert $file
+done
+
+}
+
+if [[ "$1" != "" ]]; then
+	convert $1
+else
+	convert_curdir
+fi
+
+```
