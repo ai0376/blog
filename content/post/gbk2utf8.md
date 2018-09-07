@@ -23,7 +23,7 @@ $./gbk2utf8.sh
 可以自己修改 filelist
 
 
-*filename*: gbk2utf8.sh
+*filename*: [gbk2utf8.sh](https://github.com/mjrao/shellcodes/blob/master/gbk2utf8.sh)
 
 ```
 #!/bin/bash
