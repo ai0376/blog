@@ -6,10 +6,14 @@ tags: ["docker", "mysql", "redis"]
 ---
 
 * docker redis
-  
-`docker run -p 6379:6379 -v $PWD/redis.conf:/usr/local/etc/redis/redis.conf -v $PWD:/data -v $PWD:/var  --name redis_6379 -d redis redis-server /usr/local/etc/redis/redis.conf`
+
+```  
+docker run -p 6379:6379 -v $PWD/redis.conf:/usr/local/etc/redis/redis.conf -v $PWD:/data -v $PWD:/var  --name redis_6379 -d redis redis-server /usr/local/etc/redis/redis.conf
+```
 
 
 * docker mysql
 
-`docker run --name mysql_3306 -v $PWD:/etc/mysql/conf.d -v $PWD/logs:/logs -v $PWD/data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql`
+```
+docker run --name mysql_3306 -v $PWD:/etc/mysql/conf.d -v $PWD/logs:/logs -v $PWD/data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+```
