@@ -8,7 +8,7 @@ install:
     - cd $HOME/src
     - git clone https://github.com/gohugoio/hugo.git
     - cd hugo
-    - git checkout v0.48
+    - git checkout -b hugo0.48 v0.48
     - go install
 script:
     - hugo
