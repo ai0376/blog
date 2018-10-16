@@ -11,6 +11,7 @@ install:
     - git clone https://github.com/gohugoio/hugo.git
     - cd hugo
     - go install
+    - cd $HOME/mjrao/blog
 script:
     - hugo
 deploy:
