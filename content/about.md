@@ -7,5 +7,5 @@ draft: false
 ```
 I'm a coder
 
-email: mjrao520@gmail.com
+email: mjrao at foxmail.com
 ```
