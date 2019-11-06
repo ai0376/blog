@@ -1,11 +1,11 @@
 ---
-title: "redisgo 操作lua script"
+title: "redisgo加载lua脚本"
 date: 2019-11-06T17:47:20+08:00
 draft: false
 tags: ["go", "redisgo", "lua"]
 ---
 
-redisgo 操作lua脚本参数传递过程中需要注意
+redisgo加载lua脚本参数传递过程中需要注意
 
 `script.Do()`方法的参数一定要搞对，否则很容易出错， 要么填`arg[0]`, `arg[1]` 这种形式或者用`redis.Args{}`往里面填参数，其他方式容易出错. 要保证通过`(s *Script) args(spec string, keysAndArgs []interface{})` 方法操作之后所有的参数都在一个`slice `中。
 
