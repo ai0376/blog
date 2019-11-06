@@ -1,7 +1,7 @@
 sudo: false
 language: go
 go:
-    - tip
+    - "1.13.x"
 git:
     depth: 1
 install:
@@ -10,6 +10,7 @@ install:
     - cd $HOME/src
     - git clone https://github.com/gohugoio/hugo.git
     - cd hugo
+    - git checkout v0.59.1
     - go install
     - cd $TRAVIS_BUILD_DIR
 script:
