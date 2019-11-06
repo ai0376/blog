@@ -43,6 +43,7 @@ func CliPool() *redis.Pool {
 		},
 	}
 }
+
 func main() {
 	var data []byte
 	var err error
