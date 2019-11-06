@@ -2,7 +2,7 @@
 title: "redisgo 操作lua script"
 date: 2019-11-06T17:47:20+08:00
 draft: false
-tags: ["redisgo", "lua"]
+tags: ["go", "redisgo", "lua"]
 ---
 
 redisgo 操作lua脚本参数传递过程中需要注意
