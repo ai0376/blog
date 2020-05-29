@@ -5,7 +5,8 @@ draft: false
 ---
 
 ```
-I'm a coder
+
+just a programmer
 
 email: ai0376 at qq.com
 ```
