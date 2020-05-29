@@ -8,5 +8,5 @@ draft: false
 
 just a programmer
 
-email: ai0376 at qq.com
+email: ai0376 at 126.com
 ```
