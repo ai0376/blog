@@ -22,8 +22,8 @@ deploy:
     on:
         branch: master
     local_dir: public
-    repo: mjrao/mjrao.github.io
+    repo: ai0376/ai0376.github.io
     fqdn: ownwiki.cn
     target_branch: master
-    email: mjrao@foxmail.com
-    name: mjrao
+    email: ai0376@qq.com
+    name: ai0376
