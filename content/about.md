@@ -5,7 +5,7 @@ draft: false
 ---
 
 ```
-just a programmer
+a programmer
 
 email: ai0376 at 126.com
 ```
