@@ -16,3 +16,7 @@ email: ai0376 at 126.com
 ```
 
 * [hotso.top](http://hotso.top/)
+
+
+---
+![微信订阅号](/reward/dyh.jpg)
