@@ -23,4 +23,4 @@ draft: false
 
 ## A Cup of Tea
 
-![A Cup of Tea](/reward/wechat.jpg)
+![A Cup of Tea](/reward/wechat.png)
