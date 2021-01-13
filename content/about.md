@@ -19,8 +19,3 @@ draft: false
 ## One Site 
 
 [hotso.top](http://hotso.top/)
-
-
-## A Cup of Tea
-
-![A Cup of Tea](/reward/wechat.png)
